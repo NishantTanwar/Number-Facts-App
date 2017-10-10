@@ -9,6 +9,7 @@
             display: none;
         }
     </style>
+    <script src="index.js" type="text/javascript"></script>
 </head>
 <body class="bg-dark">
     <div class="container">
@@ -29,15 +30,4 @@
         </div>
     </div>
 </body>
-<script>
-    let fact = document.querySelector('#fact');
-    let factText = document.querySelector('#factText');
-
-    let numberInput = document.querySelector('#numberInut');
-    numberInput.addEventListener('input', getFactAjax);
-    function getFactAjax() {
-        let number = numberInput.value;
-        console.log(number);
-    }
-</script>
 </html>
